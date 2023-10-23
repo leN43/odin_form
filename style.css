@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
@@ -86,4 +87,21 @@ button{
 #linkP{
   font-size: 4rem;
   padding-left: 3rem;
+}
+
+.logoZone{
+  margin-top: 25rem;
+  text-align: center;
+  font-size: 6em;
+  background-color: rgba(0,0,0,0.8);
+  font-weight: 900;
+  color: #ab20fd;
+  display: flex;
+  justify-content: center;
+  font-family: 'Russo One', sans-serif;
+  gap: 10rem;
+}
+
+#logo{
+width: 300px;
 }
