@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+}
+
+.cardMain {
+  margin-top: 1vh;
+  margin-left: 3vw;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 5px 5px #ab20fd;
+  overflow: hidden;
+  height: 95vh;
+  width: 90vw;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.imgSide{
+  background-image: url(https://images.hdqwalls.com/download/walking-in-street-synthwave-4k-1920x1080.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 30%;
+}
+
+.formSide{
+  padding: 5rem;
+  width: 70%;
+  font-size: 8rem;
+  color: white;
+}
+
+.container_form{
+  padding: 2rem 2rem;
+  box-shadow: 10px 5px 5px #ab20fd;
+  height: 50%;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+fieldset{
+  gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  width: 45%;
+}
+
+label {
+  font-size: 4rem;
+  color: #ab20fd;
+  font-weight: 800;
+}
+
+input {
+  border: 1px solid #D6D9DC;
+  border-radius: 4px;
+  padding: 3rem;
+  width: 1300px;
+  background-color: black;
+  color: white;
+  font-size: 5rem;
+}
+
+button{
+  background-color: #ab20fd;
+  font-size:6rem;
+  padding: 2rem;
+  margin: 1%;
+  color: white;
+}
+
+#linkP{
+  font-size: 4rem;
+  padding-left: 3rem;
+}
