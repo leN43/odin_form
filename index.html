@@ -48,17 +48,17 @@
                   </div>
                   <div class="field">
                     <label for="number">Phone Number</label>
-                    <input type="tel" id="number">
+                    <input type="tel" id="number" pattern="/^((\+)33|0|0033)[1-9](\d{2}){4}$/g;">
                   </div>
                 </div>
                 <div class="row">
                   <div class="field">
                     <label for="password">Password</label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" >
                   </div>
                   <div class="field">
                     <label for="cPassword">Confirm Password</label>
-                    <input type="password" id="cPassword">
+                    <input type="password" id="cPassword" >
                   </div>
                 </div>
               </form>
