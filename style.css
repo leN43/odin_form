@@ -45,6 +45,7 @@ fieldset{
   gap: 3rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .row {
@@ -61,7 +62,7 @@ fieldset{
 }
 
 label {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #ab20fd;
   font-weight: 800;
 }
